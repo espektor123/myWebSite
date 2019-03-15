@@ -3,7 +3,7 @@
 }
 
 body {
-background-size: cover; 
+background-size: 100vw; 
 background-repeat: no-repeat;
 background-image: url("Background.jpg");
 background-color: #cccccc;
