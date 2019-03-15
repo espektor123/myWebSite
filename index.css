@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+background-size: cover; 
+background-repeat: no-repeat;
+background-image: url("Background.jpg");
+background-color: #cccccc;
+font-family: "Verdana";
+padding-bottom: 80px;
+}
+
+.menu {
+	background:#089ea3;
+	opacity: 0.95;
+	height:80vh;
+	width: 15vw;
+	position:absolute;
+	top:1%;
+	left:1%;
+	z-index:0;
+	outline:none;
+}
+.avatar{
+	background:rgba(0,0,0,0.1);
+	padding:2em 0.5em;
+	text-align:center;
+	max-width: 15vw;
+}	
+
+#logo {
+	width: 8vw;	
+	border-radius: 25%;
+	overflow:hidden;
+	border:3px solid #ffea92;
+	box-shadow:0 0 0 3px rgba(255,255,255,0.2);
+	max-width: 14vw;
+}
+p{
+	font-size: 1.25vw;
+}	
+h2{
+		font-weight:normal;
+		margin-bottom:0;
+		font-size: 1.5vw;
+}
+a {
+	text-decoration: none;
+	font-size:0.95em;
+	font-weight:regular;
+	color: black;
+	
+}
+
+ul{
+	list-style:none;
+	padding:0.5em 0;
+	margin:0;
+}
+li{
+	
+	padding:0.5em 1em 0.5em 3em;
+	font-size:0.95em;
+	font-weight:regular;
+	background-repeat:no-repeat;
+	background-position:left 15px center;
+	transition:all 0.15s linear;
+	cursor:pointer;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.icon-home{
+	display: block;
+	background-size: 3vw;
+	background-repeat:no-repeat;
+	background-image:url("home.png");
+	font-size: 1.1vw;
+}
+
+.icon-wood{
+	display: block;
+	background-size: 3vw;
+	background-repeat:no-repeat;
+	background-image:url("wood.png");
+	font-size: 1.1vw;
+}
+&:hover { 
+	background-color:rgba(0,0,0,0.1);
+
+}
+
+.icon-food{
+	display: block;
+	background-size: 3vw;
+	background-repeat:no-repeat;
+	background-image:url("food.png");
+	font-size: 1.1vw;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.row {
+	margin-left:18vw;
+	position: static;
+	width: 75%;
+	min-height: 20vh;
+	background-color: #e5c9e2;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+
+}
+
+.row img:hover {
+display: block;
+transform: scale(1.5);
+border-radius: 5%;
+box-shadow: 0px 0px 15px 3px rgba(255,255,255,1);
+}
+
+
+footer {
+	position: absolute;
+	font-size: 1.25vw;
+}
+
+.end_banner {
+	position: fixed;
+	bottom: 0;
+	left:0;
+	right:0;
+	height: 5vh;
+	background-color: #089ea3;
+	text-align: center;
+}
