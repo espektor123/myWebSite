@@ -3,12 +3,12 @@
 }
 
 body {
-background-size: 100%; 
+background-size: cover; 
 background-repeat: no-repeat;
 background-image: url("Background.jpg");
 background-color: #cccccc;
 font-family: "Verdana";
-padding-bottom: 80px;
+padding-bottom: 50px;
 }
 
 .menu {
