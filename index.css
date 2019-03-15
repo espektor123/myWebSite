@@ -4,9 +4,7 @@
 
 body {
 background-size: 100vw; 
-background-repeat: no-repeat;
 background-image: url("Background.jpg");
-background-color: #cccccc;
 font-family: "Verdana";
 padding-bottom: 50px;
 }
