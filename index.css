@@ -131,7 +131,7 @@ box-shadow: 0px 0px 15px 3px rgba(255,255,255,1);
 
 footer {
 	position: absolute;
-	font-size: 1vw;
+	font-size: 1.25vw;
 }
 
 .end_banner {
@@ -139,7 +139,7 @@ footer {
 	bottom: 0;
 	left:0;
 	right:0;
-	height: 1.5vh;
+	height: 4vh;
 	background-color: #089ea3;
 	text-align: center;
 }
