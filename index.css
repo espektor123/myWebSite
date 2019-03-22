@@ -98,6 +98,14 @@ li{
 }
 
 
+.icon-laser{
+	display: block;
+	background-size: 3vw;
+	background-repeat:no-repeat;
+	background-image:url("laser.png");
+	font-size: 1.1vw;
+}
+
 .column {
   float: left;
   width: 25%;
