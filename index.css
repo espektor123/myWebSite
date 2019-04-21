@@ -112,6 +112,11 @@ li{
   padding: 10px;
 }
 
+.column_3 {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+}
 .row {
 	margin-left:18vw;
 	position: static;
